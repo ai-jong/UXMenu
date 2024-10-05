@@ -1,0 +1,6 @@
+framework module UXMenu {
+  umbrella header "UXMenu.h"
+  export *
+
+  module * { export * }
+}
