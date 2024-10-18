@@ -16,9 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UXMenu : UIView
 
-- (void)addHeaderImage:(nullable NSString*)u imgd:(NSString*)ud;
-- (void)addHeaderTitle:(NSString*)txt;
-- (void)addHeaderSubtitle:(NSString*)txt;
+- (void)addHeaderImage:(nullable NSString*)u imgd:(nullable NSString*)ud;
+- (void)addHeaderTitle:(nullable NSString*)txt;
+- (void)addHeaderSubtitle:(nullable NSString*)txt;
 -(void)showBackBtn:(BOOL)b;
 
 
